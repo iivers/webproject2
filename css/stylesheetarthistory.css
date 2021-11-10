@@ -1,0 +1,64 @@
+body{
+  background-image:url("../images/backgroundimage.jpg");
+  background-size: cover;
+}
+.container{
+  width: 100%;
+  margin: 0 auto;
+}
+.link{
+  align-items: center;
+  background-color: lightpink;
+  border: 15px double maroon;
+  width: 98%;
+  height: 80px;
+}
+.link a{
+  color: maroon;
+  font-family: 'Amarante', 'cursive';
+  font-size: 35pt;
+  padding: 30px;
+  text-decoration: none;
+  position: relative;
+  top: 12px;
+  left: 270px;
+}
+.link a:hover{
+  color: lightcoral;
+}
+.contentbox{
+  width: 1450px;
+  height: 575px;
+  background-color: rgba(255,252,237,.90);
+  border: 15px double maroon;
+  margin-left: 17px;
+  position: absolute;
+  top: 125px;
+  z-index: 1;
+}
+.head1{
+  color: maroon;
+  font-family: 'Amarante', 'cursive';
+  font-size: 18pt;
+  position: absolute;
+  left: 70px;
+  top: 120px;
+  z-index: 2;
+}
+.bodytext{
+  color: maroon;
+  font-family: Helvetica;
+  font-size: 12pt;
+  position: absolute;
+  left: 80px;
+  top: 210px;
+  right: 700px;
+  z-index: 3;
+}
+.image1{
+  width: 350px;
+  position: relative;
+  top: 40px;
+  left: 965px;
+  z-index: 5;
+}

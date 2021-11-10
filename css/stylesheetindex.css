@@ -1,0 +1,149 @@
+body{
+  background-image:url("../images/backgroundimage.jpg");
+  background-size: cover;
+}
+.container{
+  width: 100%;
+  margin: 0 auto;
+}
+.link{
+  align-items: center;
+  background-color: lightpink;
+  border: 15px double maroon;
+  width: 98%;
+  height: 80px;
+}
+.link a{
+  color: maroon;
+  font-family: 'Amarante', 'cursive';
+  font-size: 35pt;
+  padding: 30px;
+  text-decoration: none;
+  position: relative;
+  top: 12px;
+  left: 270px;
+}
+.link a:hover{
+  color: lightcoral;
+}
+.contentbox{
+  width: 1450px;
+  height: 575px;
+  background-color: rgba(255,252,237,.90);
+  border: 15px double maroon;
+  margin-left: 17px;
+  position: absolute;
+  top: 125px;
+  z-index: 1;
+}
+.head1{
+  color: maroon;
+  font-family: 'Amarante', 'cursive';
+  font-size: 18pt;
+  position: absolute;
+  left: 70px;
+  top: 120px;
+  z-index: 2;
+}
+.bodytext{
+  color: maroon;
+  font-family: Helvetica;
+  font-size: 12pt;
+  position: absolute;
+  left: 80px;
+  top: 210px;
+  right: 700px;
+  z-index: 3;
+}
+.head2{
+  color: maroon;
+  font-family: 'Amarante', 'cursive';
+  font-size: 15pt;
+  position: absolute;
+  left: 70px;
+  top: 340px;
+  z-index: 4;
+}
+.portrait{
+  width: 300px;
+  position: relative;
+  top: 55px;
+  left: 1150px;
+  z-index: 5;
+}
+.gallery{
+  width: 100%;
+  margin: auto;
+}
+.image1{
+  width: 140px;
+  position: relative;
+  left: 75px;
+  bottom: 25px;
+  z-index: 6;
+  transition: transform .3s ease-in;
+  transform-origin: bottom;
+}
+.image1:hover{
+  transform: scale(1.4);
+}
+.image2{
+  width: 140px;
+  position: relative;
+  left: 115px;
+  bottom: 25px;
+  z-index: 6;
+  transition: transform .3s ease-in;
+  transform-origin: bottom;
+}
+.image2:hover{
+  transform: scale(1.4);
+}
+.image3{
+  width: 130px;
+  position: relative;
+  left: 155px;
+  bottom: 25px;
+  z-index: 6;
+  transition: transform .3s ease-in;
+  transform-origin: bottom;
+}
+.image3:hover{
+  transform: scale(1.4);
+}
+.image4{
+  width: 128px;
+  position: relative;
+  left: 195px;
+  bottom: 25px;
+  z-index: 6;
+  transition: transform .3s ease-in;
+  transform-origin: bottom;
+}
+.image4:hover{
+  transform: scale(1.4);
+}
+.image5{
+  width: 130px;
+  position: relative;
+  left: 235px;
+  bottom: 25px;
+  z-index: 6;
+  transition: transform .3s ease-in;
+  transform-origin: bottom;
+}
+.image5:hover{
+  transform: scale(1.4);
+}
+.image6{
+  width: 135px;
+  position: relative;
+  left: 275px;
+  bottom: 25px;
+  z-index: 6;
+  transition: transform .3s ease-in;
+  transform-origin: bottom;
+}
+.image6:hover{
+  transform: scale(1.4);
+}
